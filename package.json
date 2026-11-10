@@ -1,0 +1,25 @@
+{
+  "name": "omp-desktop-notify",
+  "version": "1.0.0",
+  "description": "Windows、macOS 与 Linux 桌面通知插件，支持在模型提问 (ask)、权限审批或任务完成 (agent_end) 时发出桌面通知",
+  "main": "index.ts",
+  "license": "MIT",
+  "keywords": [
+    "omp",
+    "oh-my-pi",
+    "pi-coding-agent",
+    "desktop-notification",
+    "notifications",
+    "windows-toast"
+  ],
+  "omp": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
